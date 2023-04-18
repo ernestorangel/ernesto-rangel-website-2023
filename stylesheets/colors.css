@@ -1,0 +1,35 @@
+:root {
+  --bg-color-l: #fafafa;
+  --bg-comp-color-l: white;
+  --font-color-l: black;
+  --shadow-l: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132),
+    0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+
+  --bg-color-d: #18232d;
+  --bg-comp-color-d: #293b4d;
+  --font-color-d: white;
+  --shadow-d: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132),
+    0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: var(--bg-color-d);
+    --bg-comp-color: var(--bg-comp-color-d);
+    --font-color: var(--font-color-d);
+    --shadow: var(--shadow-d);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: var(--bg-color-l);
+    --bg-comp-color: var(--bg-comp-color-l);
+    --font-color: var(--font-color-l);
+    --shadow: var(--shadow-l);
+  }
+
+  .ui-icon {
+    filter: invert(1);
+  }
+}
