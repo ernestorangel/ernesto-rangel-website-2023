@@ -20,12 +20,12 @@ template.innerHTML = /* html */ `
   }
 </style>
 <div class="carousel">
-  <my-card width=${size} img="linkedin.png"></my-card>
-  <my-card width=${size} img="github.png"></my-card>
-  <my-card width=${size} img="twitter.png"></my-card>
-  <my-card width=${size} img="instagram.png"></my-card>
-  <my-card width=${size} img="youtube.png"></my-card>
-  <my-card width=${size} img="facebook.png"></my-card>
+  <my-card width=${size} img="icons/linkedin.png" link="https://www.linkedin.com/in/ernestojrangel/"></my-card>
+  <my-card width=${size} img="icons/github.png" link="https://github.com/ernestorangel"></my-card>
+  <my-card width=${size} img="icons/twitter.png" link="https://twitter.com/ernestojrangel"></my-card>
+  <my-card width=${size} img="icons/instagram.png" link="https://www.instagram.com/ernestojrangel/"></my-card>
+  <my-card width=${size} img="icons/youtube.png" link="https://www.youtube.com/@ernestorangel"></my-card>
+  <my-card width=${size} img="icons/facebook.png" link="https://www.facebook.com/ernestojrangeldecastro"></my-card>
 </div>
 `;
 
